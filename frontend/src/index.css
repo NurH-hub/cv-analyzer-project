@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: white;
+}
+.analysis-header {
+  max-width: 1100px;
+  margin: 0 auto 32px;
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.analysis-header h2 {
+  margin: 0 0 12px;
+  font-size: 34px;
+}
+
+.analysis-header p {
+  margin: 0;
+  color: #475569;
+  font-size: 14px;
+}
+
+.analysis-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.input-card {
+  background: white;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.input-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.small-icon {
+  width: 48px;
+  height: 48px;
+  background: #f8fafc;
+  color: #1e3a8a;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.input-card textarea {
+  width: 100%;
+  height: 340px;
+  padding: 24px;
+  border: 1px solid #dbe1ea;
+  border-radius: 16px;
+  resize: none;
+  font-size: 14px;
+  background: #f8fafc;
+}
+
+.counter {
+  color: #64748b;
+  margin-top: 18px;
+}
+
+.button-card {
+  max-width: 1100px;
+  margin: 32px auto 0;
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.button-card button {
+  padding: 16px 54px;
+  border: none;
+  border-radius: 14px;
+  background: #1e3a8a;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}/* ===== UI IMPROVEMENTS ===== */
+
+/* Better font */
+body {
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* Icon sticker style */
+.small-icon {
+  width: 52px;
+  height: 52px;
+  background: #ffffff;
+  color: #1e3a8a;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);}
+
+/* Better headings */
+.input-card h3,
+.analysis-header h1 {
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+/* Analyze button */
+.button-card button {
+  border-radius: 8px;
+}
+.pdf-upload {
+  margin-top: 18px;
+  border: 1px dashed #9bb0d3;
+  border-radius: 12px;
+  padding: 16px;
+}
+.ai-result-box {
+  background: white;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+  margin-bottom: 32px;
+  white-space: pre-line;
+}
+
+.ai-result-box h2 {
+  margin-bottom: 16px;
+  color: #1e3a8a;
+}
